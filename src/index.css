@@ -8,7 +8,10 @@
   color: #25646a;
   margin-bottom: 5px;
 }
-
+/* .msg-icon {
+  display: grid;
+  justify-content: center;
+} */
 .lc-logo {
   border-radius: 50%;
   height: 40px;
