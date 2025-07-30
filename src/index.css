@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.microphone {
+  background: #25646a !important;
+}
+.lc-texth1 {
+  color: #25646a;
+  margin-bottom: 5px;
+}
+
+.lc-logo {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
