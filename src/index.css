@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.microphone {
+  background: #25646a !important;
+}
+.lc-texth1 {
+  color: #25646a;
+  margin-bottom: 5px;
+}
+
+.lc-logo {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.ai-response h4 {
+  margin-top: 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.ai-response ul {
+  padding-left: 18px;
+  margin: 6px 0;
+  list-style: auto;
+  text-align: left;
+}
+
+.ai-response ol {
+  padding-left: 18px;
+  margin: 6px 0;
+  list-style: auto;
+  text-align: left;
+}
+
+.ai-response li {
+  margin-bottom: 4px;
+}
+
+.bot-bubble h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  font-size: 18px;
+  color: #000 !important;
+  text-align: left !important;
+}
+
+.ai-response ol li::marker {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.ai-response p {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.ai-response p img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ai-response p {
+  margin: 10px 0;
+}
+
+.speak-btn:hover {
+  color: #1d4f54 !important;
+  opacity: 0.8 !important;
+}
